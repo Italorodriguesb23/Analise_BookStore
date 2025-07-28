@@ -1,0 +1,63 @@
+Consultas SQL - MYSQL
+-- Valor total do estoque
+select sum(preco * quantidade_disponivel) as valor_total_estoque
+from livros
+where disponibilidade = 'In stock';
+
+
+-- Contar quantos livros existem por categoria
+select 
+categoria, 
+count(*) as quantidade
+from livros
+group by categoria
+order by quantidade desc;
+
+
+ -- Preço médio dos livros por categoria
+ select 
+ categoria,
+ avg(preco) as preco_medio
+ from livros
+ group by categoria
+ order by preco_medio desc;
+ 
+ 
+ -- Livro mais caro de cada categoria
+ select
+ l.categoria,
+ l.titulo,
+ l.preco as livro_caro
+ from livros l
+ join(
+ select
+ categoria,
+ max(preco) as max_preco
+ from livros
+ group by categoria
+ ) as sub
+ on l.categoria = sub.categoria
+ and l.preco = sub.max_preco
+ order by livro_caro desc;
+ 
+ 
+ -- Livros abaixo da média de preço geral
+select *
+from livros
+where preco < (select avg(preco) from livros);
+ 
+ 
+ -- Quantidade de livros por avaliação (rating)
+ select
+ avaliacao_1_5,
+ count(*) as quantidade
+ from livros
+ group by avaliacao_1_5
+ order by avaliacao_1_5 desc;
+ 
+ 
+ -- Livros no estoque
+ select *
+ from livros
+ where disponibilidade = 'In stock'
+ 
