@@ -1,0 +1,24 @@
+Relatório da analise da loja de livros
+
+Acabei de dar uma olhada nos dados do nosso catálogo de livros e tive umas percepções bem interessantes que queria compartilhar. Fiz umas análises e resumo os pontos principais aqui:
+
+1. Visão Geral do Nosso Estoque
+Temos um acervo bem grande, com mais de 6.600 livros disponíveis atualmente.
+O valor total do nosso estoque, considerando só o que está "em stock", gira em torno de R$ 233 mil.
+A média de preço dos livros no catálogo fica ali pelos R$ 35,00.
+
+2. Preço e Avaliação: Uma Relação Curiosa
+Um ponto que me chamou a atenção foi a relação entre o preço dos livros e a avaliação que eles recebem (de 1 a 5 estrelas). Não é bem o que a gente esperaria:
+Livros com avaliação de 1 estrela por vezes aparecem com um preço médio mais alto do que os de 5 estrelas.
+O preço dá uma caidinha para as avaliações de 2 estrelas e depois se mantém mais estável para as avaliações de 3 a 5 estrelas.
+Isso mostra que, pelo menos nesses dados, um livro super bem avaliado não é necessariamente o mais caro. Talvez a demanda, raridade ou a categoria em si influenciem mais o preço do que a nota pura.
+
+3. Distribuição do Estoque por Avaliação
+Falando em avaliação, notei que uma boa parte dos nossos livros aparece na faixa de 1 estrela, enquanto o restante do acervo está bem distribuído entre as outras classificações (2 a 5 estrelas).
+
+4. Categorias de Livros e Seus Preços
+Analisando as categorias, consegui identificar padrões de preço:
+Categorias mais caras: "Suspense", "Novels" e "Politics" são consistentemente as que apresentam os preços médios mais elevados.
+Categorias mais acessíveis: Gêneros como "Art", "Music", "Poetry" e "Philosophy" tendem a ter um preço médio mais em conta.
+Conclusão Rápida
+Essa primeira varredura nos dados já nos dá umas pistas boas: temos um volume considerável de livros, uma precificação que não segue linearmente a avaliação e uma clara distinção de valores entre as categorias. Isso pode ser super útil para pensar em futuras promoções ou estratégias de aquisição de novos títulos!
